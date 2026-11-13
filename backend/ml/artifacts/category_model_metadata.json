@@ -1,0 +1,24 @@
+{
+  "model_name": "TF-IDF + Logistic Regression",
+  "model_version": "1.0.0",
+  "algorithm": "Word + character TF-IDF vectorizers + multinomial Logistic Regression",
+  "trained_at": "2026-11-13T18:04:38+00:00",
+  "dataset_size": 395,
+  "train_size": 316,
+  "test_size": 79,
+  "categories": [
+    "Bills",
+    "Education",
+    "Entertainment",
+    "Food",
+    "Health",
+    "Other",
+    "Shopping",
+    "Transport"
+  ],
+  "accuracy": 0.7722,
+  "macro_f1": 0.7753,
+  "cv_macro_f1_mean": 0.6636,
+  "cv_macro_f1_std": 0.0641,
+  "random_state": 42
+}

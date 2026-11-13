@@ -1,0 +1,153 @@
+{
+  "available": true,
+  "model_name": "TF-IDF + Logistic Regression",
+  "model_version": "1.0.0",
+  "evaluated_at": "2026-11-13T18:04:38+00:00",
+  "dataset_size": 395,
+  "accuracy": 0.7722,
+  "macro_f1": 0.7753,
+  "labels": [
+    "Bills",
+    "Education",
+    "Entertainment",
+    "Food",
+    "Health",
+    "Other",
+    "Shopping",
+    "Transport"
+  ],
+  "confusion_matrix": [
+    [
+      9,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      5,
+      2,
+      2,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      7,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      8,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      8,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      8,
+      1,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      1,
+      0,
+      1,
+      6,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      10
+    ]
+  ],
+  "per_class": {
+    "Bills": {
+      "precision": 0.8182,
+      "recall": 1.0,
+      "f1_score": 0.9,
+      "support": 9
+    },
+    "Education": {
+      "precision": 0.5556,
+      "recall": 0.5,
+      "f1_score": 0.5263,
+      "support": 10
+    },
+    "Entertainment": {
+      "precision": 0.7778,
+      "recall": 0.7778,
+      "f1_score": 0.7778,
+      "support": 9
+    },
+    "Food": {
+      "precision": 0.6667,
+      "recall": 0.7273,
+      "f1_score": 0.6957,
+      "support": 11
+    },
+    "Health": {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1_score": 0.8889,
+      "support": 10
+    },
+    "Other": {
+      "precision": 0.8889,
+      "recall": 0.8,
+      "f1_score": 0.8421,
+      "support": 10
+    },
+    "Shopping": {
+      "precision": 0.5455,
+      "recall": 0.6,
+      "f1_score": 0.5714,
+      "support": 10
+    },
+    "Transport": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 10
+    }
+  },
+  "classification_report": "               precision    recall  f1-score   support\n\n        Bills       0.82      1.00      0.90         9\n    Education       0.56      0.50      0.53        10\nEntertainment       0.78      0.78      0.78         9\n         Food       0.67      0.73      0.70        11\n       Health       1.00      0.80      0.89        10\n        Other       0.89      0.80      0.84        10\n     Shopping       0.55      0.60      0.57        10\n    Transport       1.00      1.00      1.00        10\n\n     accuracy                           0.77        79\n    macro avg       0.78      0.78      0.78        79\n weighted avg       0.78      0.77      0.77        79\n",
+  "test_size": 79
+}

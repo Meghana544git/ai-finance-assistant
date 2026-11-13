@@ -1,0 +1,396 @@
+text,category
+"Swiggy order dinner chicken biryani",Food
+"Zomato lunch delivered to office",Food
+"Weekly grocery shopping at BigBasket",Food
+"Domino's pizza with friends",Food
+"Starbucks iced coffee",Food
+"Family dinner at local restaurant",Food
+"Vegetable market purchase",Food
+"Monthly groceries from DMart",Food
+"Breakfast at cafe near office",Food
+"Two scoops of ice cream",Food
+"Chicken biryani takeaway parcel",Food
+"Kirana store provisions and snacks",Food
+"Bakery cakes and bread",Food
+"Canteen lunch at college",Food
+"Late night pizza delivery",Food
+"Milk eggs and butter from dairy",Food
+"Street food chaat plate",Food
+"Restaurant bill for anniversary dinner",Food
+"Fresh fruits and vegetables from mandi",Food
+"Coffee beans and ground filter coffee",Food
+"McDonald's burger meal",Food
+"Burger King combo meal",Food
+"South Indian thali restaurant",Food
+"Office canteen snacks and tea",Food
+"Tea and samosa break",Food
+"Grocery home delivery order",Food
+"Supermarket food items",Food
+"Sushi dinner date",Food
+"Hyderabadi biryani restaurant",Food
+"Team lunch with colleagues",Food
+"Packed lunch and water bottle",Food
+"Fruit juice and smoothie",Food
+"Cooking oil and spices purchase",Food
+"Festival sweets and namkeen",Food
+"Pasta and cheese ingredients",Food
+"Cloud kitchen burger order",Food
+"Hotel breakfast buffet",Food
+"Lunch box tiffin service monthly",Food
+"Cafe latte and blueberry muffin",Food
+"Weekly grocery run at supermarket",Food
+"Restaurant service tip",Food
+"Food court meal at mall",Food
+"Grocery store bill payment",Food
+"Home delivered dosa and idli",Food
+"Uber ride to office during rain",Transport
+"Ola cab to airport",Transport
+"Metro card recharge",Transport
+"Petrol fill up for car",Transport
+"Diesel refill at highway pump",Transport
+"City bus ticket fare",Transport
+"Auto rickshaw fare home",Transport
+"Train ticket booking to Pune",Transport
+"Flight ticket to Delhi",Transport
+"Monthly apartment parking fee",Transport
+"Bike general service",Transport
+"Car servicing and oil change",Transport
+"FASTag recharge for toll",Transport
+"Cab to railway station",Transport
+"Rapido bike taxi ride",Transport
+"Fuel at Indian Oil petrol pump",Transport
+"Vehicle insurance renewal premium",Transport
+"Tyre replacement for car",Transport
+"Car wash and detailing",Transport
+"Metro monthly travel pass",Transport
+"Local train ticket",Transport
+"Airport taxi fare",Transport
+"Shared auto ride to market",Transport
+"Mall parking charges",Transport
+"CNG refill for cab",Transport
+"Engine oil change",Transport
+"Driving license renewal fee",Transport
+"Pollution certificate for scooter",Transport
+"Toll plaza payment",Transport
+"Railway platform ticket",Transport
+"Scooter puncture repair",Transport
+"Car battery replacement",Transport
+"Petrol for scooter",Transport
+"Intercity bus fare",Transport
+"Cab ride home late night",Transport
+"Bicycle repair and spare parts",Transport
+"Fuel top up before road trip",Transport
+"Ride sharing fare to meeting",Transport
+"Taxi fare at night",Transport
+"Annual car maintenance",Transport
+"Amazon order for household items",Shopping
+"Flipkart purchase of phone accessories",Shopping
+"Myntra clothes shopping",Shopping
+"New running shoes",Shopping
+"T-shirt purchase from mall",Shopping
+"Jeans purchase",Shopping
+"Smartphone back cover",Shopping
+"Electronics store purchase",Shopping
+"Wireless headphones",Shopping
+"Kitchen utensils set",Shopping
+"Home decor items",Shopping
+"Furniture for living room",Shopping
+"Bedsheets and towels",Shopping
+"Cosmetics and skincare products",Shopping
+"Perfume bottle",Shopping
+"Wrist watch purchase",Shopping
+"Backpack for travel",Shopping
+"Laptop accessories",Shopping
+"Wireless mouse",Shopping
+"Birthday gift for friend",Shopping
+"Wedding gift purchase",Shopping
+"Saree shopping for festival",Shopping
+"Diwali new clothes",Shopping
+"Shopping mall purchase",Shopping
+"Nike running shoes",Shopping
+"H&M shirt",Shopping
+"Zara dress",Shopping
+"Smartwatch purchase",Shopping
+"Power bank",Shopping
+"USB charging cable",Shopping
+"Mixer grinder for kitchen",Shopping
+"Water bottle purchase",Shopping
+"Online sale purchase",Shopping
+"Winter jacket",Shopping
+"Sunglasses",Shopping
+"Artificial jewellery",Shopping
+"Handbag purchase",Shopping
+"Shopping on discount sale",Shopping
+"Home appliance delivery",Shopping
+"Electricity bill payment",Bills
+"Water bill payment",Bills
+"Internet broadband monthly bill",Bills
+"Mobile recharge plan",Bills
+"DTH recharge",Bills
+"Gas cylinder booking",Bills
+"House rent payment",Bills
+"Apartment maintenance charges",Bills
+"Society maintenance payment",Bills
+"Home loan EMI",Bills
+"Car loan EMI",Bills
+"Personal loan EMI",Bills
+"Credit card bill payment",Bills
+"Insurance premium payment",Bills
+"Health insurance premium",Bills
+"Life insurance premium",Bills
+"Property tax payment",Bills
+"Municipal tax",Bills
+"Postpaid phone bill",Bills
+"WiFi monthly plan",Bills
+"Piped gas bill",Bills
+"PG accommodation rent",Bills
+"Electricity units payment",Bills
+"Mobile data pack recharge",Bills
+"Cable TV bill",Bills
+"Cloud storage subscription",Bills
+"Software subscription renewal",Bills
+"Annual maintenance contract",Bills
+"Electricity and water combined bill",Bills
+"Broadband installation charges",Bills
+"Jio recharge",Bills
+"Airtel recharge",Bills
+"Gas refill booking",Bills
+"Loan repayment installment",Bills
+"Utility bill payment",Bills
+"Security deposit transfer",Bills
+"Monthly rent bank transfer",Bills
+"Water tanker charges",Bills
+"Home internet router rental",Bills
+"Electricity meter reading bill",Bills
+"Movie tickets at PVR",Entertainment
+"Netflix monthly subscription",Entertainment
+"Amazon Prime subscription",Entertainment
+"Spotify premium",Entertainment
+"Disney Hotstar subscription",Entertainment
+"Concert tickets",Entertainment
+"Steam game purchase",Entertainment
+"PlayStation game",Entertainment
+"Amusement park entry",Entertainment
+"Bowling with friends",Entertainment
+"Stand up comedy show tickets",Entertainment
+"Museum entry ticket",Entertainment
+"Theme park visit",Entertainment
+"Movie popcorn and drinks",Entertainment
+"Theatre play tickets",Entertainment
+"Music festival pass",Entertainment
+"Night club entry fee",Entertainment
+"Arcade game tokens",Entertainment
+"Zoo ticket",Entertainment
+"Karaoke night",Entertainment
+"Board game purchase",Entertainment
+"BookMyShow booking",Entertainment
+"Cinema snacks",Entertainment
+"YouTube premium subscription",Entertainment
+"Gaming subscription renewal",Entertainment
+"Cricket match tickets",Entertainment
+"IPL match tickets",Entertainment
+"Picnic entry fee",Entertainment
+"Resort day pass",Entertainment
+"Party expenses",Entertainment
+"DJ night entry",Entertainment
+"Streaming service subscription",Entertainment
+"Video game downloadable content",Entertainment
+"Funfair ride tickets",Entertainment
+"Comedy club tickets",Entertainment
+"Doctor consultation fee",Health
+"Pharmacy medicines",Health
+"Apollo pharmacy purchase",Health
+"Blood test lab charges",Health
+"Hospital bill payment",Health
+"Dental checkup",Health
+"Full body health checkup package",Health
+"Physiotherapy session",Health
+"Eye checkup",Health
+"Spectacles purchase",Health
+"Contact lenses",Health
+"Vitamin supplements",Health
+"Gym membership",Health
+"Yoga class fees",Health
+"Clinic visit charges",Health
+"Fever medicine",Health
+"Cough syrup",Health
+"Painkiller tablets",Health
+"Surgery expenses",Health
+"X-ray scan",Health
+"MRI report charges",Health
+"Dermatologist appointment",Health
+"Pediatrician visit",Health
+"Vaccination charges",Health
+"Protein supplement",Health
+"Medical test charges",Health
+"Dentist filling",Health
+"Orthopedic consultation",Health
+"Nursing home charges",Health
+"Ambulance charges",Health
+"Homeopathy medicine",Health
+"Ayurvedic treatment",Health
+"Blood pressure monitor",Health
+"Thermometer purchase",Health
+"Online physiotherapy class",Health
+"Online course on Udemy",Education
+"Coursera subscription",Education
+"College semester fee",Education
+"Tuition fees payment",Education
+"School fees",Education
+"Exam registration fee",Education
+"Textbooks purchase",Education
+"Notebooks and stationery",Education
+"Engineering textbooks",Education
+"Programming course",Education
+"Data science bootcamp",Education
+"Workshop fee",Education
+"Certification exam fee",Education
+"GATE coaching fees",Education
+"Competitive exam application fee",Education
+"Language class fees",Education
+"Music lessons",Education
+"Drawing class fees",Education
+"School uniform purchase",Education
+"College hostel fee",Education
+"University application fee",Education
+"Study material purchase",Education
+"Practice test series",Education
+"Library late fee",Education
+"Seminar ticket",Education
+"Webinar registration",Education
+"Skill development course",Education
+"Coding bootcamp",Education
+"Academic journal subscription",Education
+"Lab manual",Education
+"Scientific calculator for exams",Education
+"School bus fee",Education
+"Online tutorial subscription",Education
+"Project materials",Education
+"Thesis printing and binding",Education
+"Spoken English classes",Education
+"ATM cash withdrawal",Other
+"Bank charges",Other
+"Cash transfer fee",Other
+"Donation to charity",Other
+"Temple donation",Other
+"Pet food purchase",Other
+"Pet vaccination",Other
+"Veterinary visit",Other
+"Home repair work",Other
+"Plumber charges",Other
+"Electrician visit",Other
+"House cleaning service",Other
+"Laundry service",Other
+"Salon haircut",Other
+"Spa massage",Other
+"Wedding gift envelope",Other
+"Religious ceremony expenses",Other
+"Miscellaneous expense",Other
+"Bank account maintenance fee",Other
+"Money sent to family",Other
+"Lost cash",Other
+"Furniture repair work",Other
+"Courier charges",Other
+"Post office charges",Other
+"Notary charges",Other
+"Legal consultation fee",Other
+"Miscellaneous subscription",Other
+"Gift donation",Other
+"Community fund contribution",Other
+"Tips and gratuity",Other
+"Household help salary",Other
+"Baby supplies",Other
+"Personal care items",Other
+"Tailoring charges",Other
+"Key duplication",Other
+"Photo printing",Other
+"Dentist root canal treatment",Health
+"Tablet strips from medical store",Health
+"Doctor appointment consultation fees",Health
+"Hospital admission deposit",Health
+"Sugar test blood report",Health
+"Thyroid profile blood test",Health
+"Physiotherapy for back pain",Health
+"Allergy medicine tablets",Health
+"Eye drops prescription",Health
+"Orthopedic knee brace",Health
+"Pediatric vaccination dose",Health
+"Senior citizen health checkup",Health
+"Glucometer test strips",Health
+"Medical store medicine bill",Health
+"Cash gift for wedding",Other
+"Temple pooja expenses",Other
+"Pet dog food and treats",Other
+"Household maid salary",Other
+"Charity donation transfer",Other
+"Bank locker annual fee",Other
+"Passport application fee",Other
+"Lost wallet cash",Other
+"Religious festival donation",Other
+"Tailor stitching charges",Other
+"Plumber pipe repair",Other
+"Electrician switchboard repair",Other
+"Courier parcel delivery charges",Other
+"Society community fund contribution",Other
+"Semester examination fee",Education
+"College admission form fee",Education
+"Data structures textbook",Education
+"Machine learning online course",Education
+"Python programming certificate",Education
+"University tuition installment",Education
+"School annual charges",Education
+"Exam hall ticket fee",Education
+"Project report printing",Education
+"Spoken English coaching",Education
+"Competitive exam mock tests",Education
+"IIT coaching classes",Education
+"PVR cinema ticket booking",Entertainment
+"Netflix yearly plan",Entertainment
+"Music concert ticket",Entertainment
+"Gaming console game disk",Entertainment
+"Water park entry ticket",Entertainment
+"Comedy show ticket",Entertainment
+"Weekend movie show",Entertainment
+"Spotify music subscription",Entertainment
+"Amusement rides tokens",Entertainment
+"Karaoke bar bill",Entertainment
+"Cricket stadium ticket",Entertainment
+"Museum guided tour ticket",Entertainment
+"Cotton shirts online order",Shopping
+"Running shoes from Nike store",Shopping
+"Bluetooth speaker purchase",Shopping
+"Kitchen cookware set",Shopping
+"Face wash and moisturizer",Shopping
+"Leather wallet",Shopping
+"Office chair purchase",Shopping
+"Smart LED bulb",Shopping
+"Gift wrap and greeting card",Shopping
+"Formal trousers",Shopping
+"Travel luggage bag",Shopping
+"Gold plated earrings",Shopping
+"Masala dosa breakfast",Food
+"Paneer butter masala dinner",Food
+"Grocery staples rice and dal",Food
+"Chocolate bar snack",Food
+"Cold coffee takeaway",Food
+"Chapati and curry lunch",Food
+"Mutton curry restaurant",Food
+"Fruit salad bowl",Food
+"Sandwich and chips",Food
+"Mineral water bottles",Food
+"Electricity bill online payment",Bills
+"Monthly broadband rental",Bills
+"Postpaid mobile bill payment",Bills
+"Cooking gas cylinder refill",Bills
+"Apartment water charges",Bills
+"Home EMI bank debit",Bills
+"Insurance policy renewal",Bills
+"Municipal property tax receipt",Bills
+"Uber cab office commute",Transport
+"Petrol pump fuel receipt",Transport
+"Metro rail recharge card",Transport
+"Auto fare to market",Transport
+"Car tyre puncture repair",Transport
+"Train ticket reservation",Transport
+"Bike petrol refill",Transport
+"Airport cab booking",Transport

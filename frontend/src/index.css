@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 20% 97%;
+    --foreground: 215 55% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 215 55% 12%;
+    --primary: 160 84% 30%;
+    --primary-foreground: 0 0% 100%;
+    --primary-soft: 152 55% 94%;
+    --secondary: 210 25% 96%;
+    --secondary-foreground: 215 40% 20%;
+    --muted: 210 22% 96%;
+    --muted-foreground: 215 15% 44%;
+    --accent: 152 55% 94%;
+    --accent-foreground: 160 70% 22%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 214 22% 91%;
+    --input: 214 22% 88%;
+    --ring: 160 84% 30%;
+    --radius: 0.9rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  ::selection {
+    @apply bg-emerald-200 text-navy-900;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display tracking-tight;
+  }
+}
+
+@layer components {
+  .surface {
+    @apply rounded-2xl border border-border bg-card shadow-card;
+  }
+
+  .surface-muted {
+    @apply rounded-2xl border border-border/70 bg-white/60;
+  }
+
+  .nav-link {
+    @apply flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium text-slate-500 transition-all duration-200 hover:bg-slate-50 hover:text-navy-900;
+  }
+
+  .nav-link-active {
+    @apply bg-primary-soft text-emerald-800 shadow-none hover:bg-primary-soft hover:text-emerald-800;
+  }
+
+  .hero-grid {
+    background-image:
+      linear-gradient(to right, rgba(255, 255, 255, 0.045) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.045) 1px, transparent 1px);
+    background-size: 38px 38px;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .focus-ring {
+    @apply outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background;
+  }
+
+  .stat-tile {
+    @apply flex h-11 w-11 items-center justify-center rounded-xl border border-border/70;
+  }
+}
+
+@layer utilities {
+  .animate-delay-100 {
+    animation-delay: 100ms;
+  }
+  .animate-delay-200 {
+    animation-delay: 200ms;
+  }
+  .animate-delay-300 {
+    animation-delay: 300ms;
+  }
+}
+
+/* Recharts polish */
+.recharts-cartesian-axis-tick-value {
+  font-size: 11px;
+  fill: #7c8899;
+}
+
+.recharts-tooltip-wrapper {
+  outline: none;
+}
+
+.recharts-default-tooltip {
+  border-radius: 12px !important;
+  border: 1px solid #e7ebf0 !important;
+  box-shadow: 0 8px 24px -12px rgba(11, 31, 58, 0.25) !important;
+}

@@ -1,0 +1,38 @@
+# Optional PostgreSQL helper for AI Finance Assistant.
+#
+# The application runs out of the box with SQLite, so Docker is NOT required.
+# This file only starts a local PostgreSQL instance if you want to develop or
+# demo against a production-like database.
+#
+#   1. docker compose up -d
+#   2. In backend/.env set:
+#        DATABASE_URL=postgresql+psycopg://finance:finance@localhost:5432/ai_finance
+#        AUTO_CREATE_TABLES=false
+#   3. Install the driver:  backend\.venv\Scripts\python -m pip install "psycopg[binary]"
+#   4. Run migrations:      cd backend; .\.venv\Scripts\python -m alembic upgrade head
+#   5. Start the app:       .\run.ps1
+#
+# For Supabase, use the connection string from Project Settings > Database and
+# skip this compose file entirely.
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: ai-finance-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: finance
+      POSTGRES_PASSWORD: finance
+      POSTGRES_DB: ai_finance
+    ports:
+      - "5432:5432"
+    volumes:
+      - ai_finance_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U finance -d ai_finance"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  ai_finance_pgdata:
